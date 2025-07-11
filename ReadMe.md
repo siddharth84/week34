@@ -1,6 +1,6 @@
 ## Manual installation
-  -Install nodejs
-  -Install dependencies(npm insatll)
+-Install nodejs
+-Install dependencies(npm insatll)
   -Start DB locally
    -docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
   -Change env fileand update DB credentials
