@@ -1,12 +1,12 @@
 ## Manual installation
- -Install nodejs
- -Install dependencies(npm insatll)
- -Start DB locally
+  -Install nodejs
+  -Install dependencies(npm insatll)
+  -Start DB locally
    -docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
- -Change env fileand update DB credentials
- -npx prisma migrate
- -npm run build
- -npm run start
+  -Change env fileand update DB credentials
+  -npx prisma migrate
+  -npm run build
+  -npm run start
 
 ## Docker installation
  -Install Docker
